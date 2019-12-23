@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-api-member-impl" />
+        <module name="springcloud-api-member-service" />
+        <module name="springcloud-api-order-impl" />
+        <module name="springcloud-api-order-service" />
+        <module name="springcloud-parent" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-api" target="1.8" />
+      <module name="springcloud-api-member-impl" target="1.8" />
+      <module name="springcloud-api-member-service" target="1.8" />
+      <module name="springcloud-api-order-impl" target="1.8" />
+      <module name="springcloud-api-order-service" target="1.8" />
+      <module name="springcloud-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-api" options="-parameters" />
+      <module name="springcloud-api-member-impl" options="-parameters" />
+      <module name="springcloud-api-member-service" options="-parameters" />
+      <module name="springcloud-api-order-impl" options="-parameters" />
+      <module name="springcloud-api-order-service" options="-parameters" />
+      <module name="springcloud-parent" options="-parameters" />
+    </option>
+  </component>
+</project>

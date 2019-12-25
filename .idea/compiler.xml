@@ -10,7 +10,6 @@
         <module name="springcloud-api-member-service" />
         <module name="springcloud-api-order-impl" />
         <module name="springcloud-api-order-service" />
-        <module name="springcloud-parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
